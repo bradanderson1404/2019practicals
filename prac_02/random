@@ -1,0 +1,12 @@
+random.randint(5, 20)
+    I saw the number 11
+    The lowest I could have seen is 5
+
+random.randrange(3, 20, 2)
+    I saw the number 9
+    The smallest number that could have been produced was 3
+    A 4 could not have been produced
+
+random.uniform(2.5, 5.5)
+    I saw 3.8359915709838246
+    the lowest possible is 2.5 and the highest is 5.5
