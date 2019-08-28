@@ -1,6 +1,10 @@
 def main():
     min_length = int(input("Enter Password Length: "))
     password = get_password(min_length)
+    print_asterisk(password)
+
+
+def print_asterisk(password):
     for char in password:
         print("*", end='')
 
